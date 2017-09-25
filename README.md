@@ -17,6 +17,16 @@ Streaming music service.
 - (album)
 - (genre)
 
+### Add helper for displaying duration as XX:YY
+### Change form to use select for choosing artist
+### Validates song and artist (max bio 8000 chars)
+### Display artist songs on their page
+
+### Add a colour scheme to the site
+### Display songs from different decades in a different colour scheme
+### Add a PlayCount model to the app, which you increment on a song's #show page. Then add a top 10 songs page
+
+
 ## Playlist
 - name: string
 - songs: array
@@ -24,7 +34,7 @@ Streaming music service.
 - (subscribers)
 - (public)
 
-- User can sign up, create a profile
+## User can sign up, create a profile
 
 
 This README would normally document whatever steps are necessary to get the

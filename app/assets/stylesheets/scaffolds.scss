@@ -1,6 +1,6 @@
 body {
-  background-color: #fff;
-  color: #333;
+  background-color: #3C3548;
+  color: #FFFFFF;
   margin: 33px;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
@@ -81,4 +81,20 @@ div {
 
 label {
   display: block;
+}
+
+.seventies {
+  color: red;
+}
+.eighties {
+  color: green;
+}
+.nineties {
+  color: yellow;
+}
+.naughties {
+  color: blue;
+}
+.modern {
+  color: pink;
 }

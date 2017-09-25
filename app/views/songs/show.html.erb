@@ -7,7 +7,7 @@
 
 <p>
   <strong>Artist:</strong>
-  <%= @song.artist.name %>
+  <%= link_to @song.artist.name, @song.artist %>
 </p>
 
 <p>
@@ -15,7 +15,7 @@
   <%= format_duration(@song.duration) %>
 </p>
 
-<p>
+<p class="date">
   <strong>Released at:</strong>
   <%= @song.released_at %>
 </p>
